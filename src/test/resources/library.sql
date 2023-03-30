@@ -20,3 +20,6 @@ select count(*) from book_borrow
 where is_returned=0;
 
 select * from users;
+
+select name, author, isbn from books
+where name = 'Head First Java';
